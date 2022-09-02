@@ -1,0 +1,21 @@
+.title {
+  font-size: 4em;
+  color: #19381F;
+  text-align: center;
+}
+
+.comeIn {
+  color: #3C0000;
+  font-size: 2em;
+  text-align: center;
+  text-decoration: none;
+  padding: 25px;
+}
+
+.comeIn a {
+  text-decoration: none;
+}
+
+.comeIn :hover {
+  font-weight: bold;
+}

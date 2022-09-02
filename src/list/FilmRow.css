@@ -1,0 +1,52 @@
+.FilmRow {
+  display: grid;
+  position: relative;
+  grid-template-columns: 1fr 3fr;
+  padding: 0;
+  text-align: left;
+  margin-bottom: 2px;
+  font-size: 12pt;
+  background-color: white;
+  border: none;
+  padding-left: .5em;
+}
+
+.FilmRow:hover {
+  background-color: rgb(235, 250, 250);
+}
+
+.FilmRow .fave {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  height: 34px;
+  width: 34px;
+  align-items: center;
+  justify-content: center;
+  font-size: 12pt;
+  font-weight: 800;
+  background-color: transparent;
+  border: none;
+  border-radius: 5px;
+}
+
+.FilmRow .fave:hover {
+  background-color: lightseagreen;
+}
+
+.FilmRow .fave:active {
+  background-color: rgb(40, 205, 197);
+}
+
+.FilmRow .film-summary {
+  padding: 0.5em 1.5em;
+}
+
+.FilmRow .film-summary>h3 {
+  margin-bottom: 0.35em;
+}
+
+.FilmRow .film-summary>p {
+  margin-top: 0;
+}
