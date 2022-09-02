@@ -6,7 +6,7 @@
 
 ## Description
 
-In this app an API from giphy.com is used.
+In this app an API from themoviedb.org is used.
 
 ## See the app on Localhost
 
